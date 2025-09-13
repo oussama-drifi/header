@@ -1,0 +1,30 @@
+@media (min-width: 1150px) /*to infinity*/ {
+    .container{
+        width: 1270px;
+    }
+    .mobile-header{
+        display: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1149px) {
+    .container{
+        width: 970px;
+    }
+    .desktop-header{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+}
+@media (max-width: 991px) {
+    .container{
+        width: 750px;
+    }
+    .desktop-header{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+}

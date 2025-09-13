@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header demo</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <link rel="stylesheet" href="css/desktopVersion.css">
+    <!-- font family -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <!--icons library-->
+    <link rel="stylesheet" href="icons/css/all.min.css">
+</head>
+<body>
+    <!-- normally you need to render only one depends on the device to avoid 2 headers in DOM -->
+    <!-- start desktop header -->
+    <div class="header-container desktop-header">
+        <header class="container d-flex j-c-space-between a-i-center">
+            <div class="links d-flex j-c-center gap-10">
+                <div class="logo d-flex">
+                    <img src="imgs/logoDark.png" alt="logo not found" id="logo">
+                </div>
+                <nav class="d-flex">
+                    <ul class="p-rel d-flex a-i-center">
+                        <li class="d-flex a-i-center">
+                            <ul class="dropdown-links d-flex p-rel">
+                                <!-- start links with dropdown -->
+                                <li><span class="products">Products <i class="fa-solid fa-angle-down"></i></span></li>
+                                <li><span class="solutions">Solutions <i class="fa-solid fa-angle-down"></i></span></li>
+                                <li><span class="recources">Recources <i class="fa-solid fa-angle-down"></i></span></li>
+                                <!-- end links with dropdown -->
+                                
+                                <!-- start dropdown menu -->
+                                <div class="menu stretch-menu-width">
+                                    <div class="tabs-wrapper">
+                                        <!-- start products dropdown -->
+                                        <div class="products-menu d-flex j-c-space-between">
+                                            <ul class="frameworks">
+                                                <h5>Frameworks</h5>
+                                                <li>
+                                                    <a href="#"><i class="fa-brands fa-react"></i></a>
+                                                    <div class="description">
+                                                        <p>React.Js</p>
+                                                        <span>FrontEnd Library</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-brands fa-angular"></i></a>
+                                                    <div class="description">
+                                                        <p>Angular</p>
+                                                        <span>FrontEnd Framework</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-brands fa-laravel"></i></a>
+                                                    <div class="description">
+                                                        <p>Laravel</p>
+                                                        <span>BackEnd Framework</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="infrastructure">
+                                                <h5>Infrastructure</h5>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-layer-group"></i></a>
+                                                    <div class="description">
+                                                        <p>CI / CD</p>
+                                                        <span>Ship x6 faster</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-globe"></i></a>
+                                                    <div class="description">
+                                                        <p>Delivery Network</p>
+                                                        <span>Fast, scalable and reliable</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                                    <div class="description">
+                                                        <p>Analytics</p>
+                                                        <span>Keep track of everything</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-robot"></i></a>
+                                                    <div class="description">
+                                                        <p>AI infrasctructure</p>
+                                                        <span>AI Gateway & Sandbox</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="security">
+                                                <h5>Security</h5>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-shield"></i></a>
+                                                    <div class="description">
+                                                        <p>Platform Protection</p>
+                                                        <span>DDoS protection, Firwall</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-table-cells-row-lock"></i></a>
+                                                    <div class="description">
+                                                        <p>Dta Integrity</p>
+                                                        <span>Secure your data</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- end products dropdown -->
+                                        
+                                        <!-- start solutions dropdown -->
+                                        <div class="solutions-menu d-flex j-c-space-between">
+                                            <ul class="frameworks">
+                                                <h5>Use cases</h5>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-chart-column"></i></a>
+                                                    <div class="description">
+                                                        <p>Marketing Sites</p>
+                                                        <span>Launch campains fast</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-boxes-stacked"></i></a>
+                                                    <div class="description">
+                                                        <p>Multi-tenant Platforms</p>
+                                                        <span>Scale apps with one codebase</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-sliders"></i></a>
+                                                    <div class="description">
+                                                        <p>Customize Settings</p>
+                                                        <span>Full access to parameters</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-cloud"></i></a>
+                                                    <div class="description">
+                                                        <p>Cloud Backups</p>
+                                                        <span>Save your Progress</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="infrastructure">
+                                                <h5>Users</h5>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-wrench"></i></a>
+                                                    <div class="description">
+                                                        <p>Platform Engineers</p>
+                                                        <span>Automate away repetition</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-crop-simple"></i></a>
+                                                    <div class="description">
+                                                        <p>Design Engineers</p>
+                                                        <span>Deploy for every idea</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-headset"></i></a>
+                                                    <div class="description">
+                                                        <p>Customer Support</p>
+                                                        <span>Available 24/7 help</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- end solutions dropdown -->
+                                        
+                                        <!-- start recources dropdown -->
+                                        <div class="recources-menu d-flex j-c-space-between">
+                                            <ul class="frameworks">
+                                                <h5>Tools</h5>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-box-open"></i></a>
+                                                    <div class="description">
+                                                        <p>Recource Center</p>
+                                                        <span>Today's best practice</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-puzzle-piece"></i></a>
+                                                    <div class="description">
+                                                        <p>Marketplace</p>
+                                                        <span>Extent and automate workflows</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-book"></i></a>
+                                                    <div class="description">
+                                                        <p>Guides</p>
+                                                        <span>Find help quickly</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <ul class="infrastructure">
+                                                <h5>Company</h5>
+                                                <li>
+                                                    <a href="#"><i class="fa-regular fa-face-smile"></i></a>
+                                                    <div class="description">
+                                                        <p>Customers</p>
+                                                        <span>Trusted by the best teams</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-pen-nib"></i></a>
+                                                    <div class="description">
+                                                        <p>Blog</p>
+                                                        <span>The latest posts and changes</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+                                                    <div class="description">
+                                                        <p>Events</p>
+                                                        <span>Join us at an event</span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#"><i class="fa-solid fa-arrows-to-circle"></i></a>
+                                                    <div class="description">
+                                                        <p>Partner Finder</p>
+                                                        <span>Get help from solution partners</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- end recources dropdown -->
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <!-- end links with dropdown -->
+                        
+                        <!-- start links without dropdown -->
+                        <li class="d-flex a-i-center"><a href="#">Enterprise</a></li>
+                        <li class="d-flex a-i-center"><a href="#">Docs</a></li>
+                        <li class="d-flex a-i-center"><a href="#">Pricing</a></li>
+                        <!-- end links without dropdown -->
+                    </ul>
+                </nav>
+            </div>
+            <!-- start buttons -->
+            <div class="btns d-flex a-i-center">
+                <div class="theme-btns">
+                    <button id="dark" class="center"><i class="fa-regular fa-moon"></i></button>
+                    <button id="light" class="active center"><i class="fa-regular fa-sun"></i></button>
+                </div>
+                <button>Log in <i class="fa-solid fa-arrow-right"></i></button>
+                <button>Sign up <i class="fa-solid fa-arrow-right"></i></button>
+                <button>Contact <i class="fa-solid fa-envelope"></i></button>
+            </div>
+            <!-- end buttons -->
+        </header>
+    </div>
+    <!-- end desktop header -->
+
+    <!-- start mobile header -->
+    <div class="header-container mobile-header">
+        <header class="container">
+            <div class="logo d-flex">
+                <img src="imgs/logoDark.png" alt="logo not found" id="logo" width="100px">
+            </div>
+            <div class="menu-btn">
+                <button>dreferg</button>
+            </div>
+        </header>
+    </div>
+    <!-- end mobile header -->
+    
+    <!-- include javascript files -->
+    <script src="js/light_dark.js"></script>
+    <script src="js/desktop_header.js"></script>
+    <script src="js/mobile_header.js"></script>
+</body>
+</html>

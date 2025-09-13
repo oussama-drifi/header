@@ -1,0 +1,26 @@
+.p-abs{
+    position: absolute;
+}
+.p-rel{
+    position: relative;
+}
+.d-flex{
+    display: flex;
+}
+.a-i-center{
+    align-items: center;
+}
+.j-c-center{
+    justify-content: center;
+}
+.j-c-space-between{
+    justify-content: space-between;
+}
+.gap-10{
+    gap: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
